@@ -6,7 +6,7 @@
   var vm = new Vue({
     el: 'body',
     data: {
-      url: 'https://api.github.com/users/fengyuanchen/repos?per_page=100',
+      url: 'https://api.github.com/users/hectorchow/repos?per_page=100',
       repos: [],
       loading: true
     },
