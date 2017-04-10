@@ -40,30 +40,7 @@
     </header>
 
     <!-- Content -->
-    <main class="content" id="content">
-      <div class="container">
-        <div class="card carbonads">
-          <script id="_carbonads_js" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=fengyuanchen" async></script>
-        </div>
-        <div class="card process" v-if="loading"><i class="fa fa-spinner fa-pulse"></i> Loading...</div>
-        <template v-else>
-          <div class="repos">
-            <div class="card" v-for="repo in repos">
-              <h5>
-                <a class="repo-name" href="{{ repo.html_url }}">{{ repo.name }}</a>
-                <small class="repo-star float-right">
-                  <i class="fa fa-star"></i>
-                  {{ repo.stargazers_count }}
-                </small>
-              </h5>
-              <p class="repo-text">{{ repo.description }}</p>
-              <a class="card-link" href="{{ repo.html_url }}" title="View repository"><i class="fa fa-github"></i> GitHub</a>
-              <a class="card-link" href="{{ repo.homepage }}" title="View homepage"><i class="fa fa-home"></i> Website</a>
-            </div>
-          </div>
-        </template>
-      </div>
-    </main>
+ 
 
     <!-- Footer -->
     <footer class="footer">
