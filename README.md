@@ -1,5 +1,5 @@
-# santiago.github.io
+# hectorchow.github.io
 
 > The static website of @hectorchow.
 
-- [Website](https://santiago.github.io)
+- [Website](https://hectorchow.github.io)
